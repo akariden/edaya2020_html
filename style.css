@@ -699,14 +699,14 @@ container
   padding: 60px 15px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 /*******
 background
 ******************************************/
 .bg_wrap {
-  padding: 49px;
+  padding: 40px;
   margin-bottom: 40px;
 }
 .bg_wrap > * {
@@ -714,6 +714,10 @@ background
 }
 .bg_wrap.bg_baige01 {
   background-color: #F8F9F4;
+}
+
+.bg_wrap.bg_baige02 {
+  background-color: #F3EEE4;
 }
 .bg_wrap.bg_gray01 {
   background-color: #FCFCFC;
@@ -1428,6 +1432,10 @@ list elements
   margin-bottom: 0;
 }
 
+.bulletList02 > li {
+  margin-bottom: 15px;
+}
+
 .orderList01 {
   counter-reset: orderList;
   /* 'orderList' という名前（変数）のカウンターを設定し、 0 で初期化する。 */
@@ -1545,7 +1553,6 @@ card component
   overflow: hidden;
   height: 0;
   background-color: #F3EEE4;
-  background-color: ;
 }
 .card01_imgWrapper > img {
   width: 100%;
